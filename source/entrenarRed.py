@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-
-
 from PIL import Image #biblioteca para abrir y escalar imagenes, manipular y guardar muchos formatos de archivo de imagen diferentes
 from glob import glob #bibilioteca utilizada para iterar entre los archivos de una biblioteca
 from numpy import array 
