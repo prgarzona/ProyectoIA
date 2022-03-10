@@ -131,3 +131,4 @@ tiempo=calcularTiempo(tiempoTotal)
 print ("Se ha entrenado en", tiempo[0], "días",tiempo[1], "horas",tiempo[2],"minutos y",tiempo[3], "segundos")
 
 red.save("RedNeuronalEntrenada") # se guardan los resultados
+#Fin de archivo
