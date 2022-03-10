@@ -4,7 +4,7 @@ from numpy import array
 from fann2 import libfann # biblioteca para entrenar la RNA, Enlaces de Python para redes neuronales artificiales rápidas
 import time
 
-imagenes = [] #almacena las iamgenes de entrada, por defecto esta vacio y se va llenando conforme la red aprende
+imagenes = [] #almacena las iamgenes de entrada, por defecto esta vacio y se va llenando conforme se analizan las imagenes
 esperados = [] #almacena los resultados esperados,por defecto esta vacio y se va llenando conforme la red aprende
 
 #Funcion que calcula en cuanto tiempo se entrena la red segun el numero de iteraciones que coloquemos
