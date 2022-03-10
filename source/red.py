@@ -18,8 +18,8 @@ def evaluar(imagen):
 	tmep = []
 	#Vectorizamos completamente el arreglo de la imágen
 	for x in arreglo:
-		tmep.append(x[0])
-		tmep.append(x[1])
-		tmep.append(x[2])
+		tmep.append(x[0])#verrde
+		tmep.append(x[1])#semi verde
+		tmep.append(x[2])#rojo
 	tmep.append(50)#Indica que la imágen es de 50x50px, para que la red vaya obteniendo los valores de 50 en 50
 	return ann.run(tmep)

@@ -49,9 +49,9 @@ def getdata():
 		esperados.append([1,1,1]) #agregamos los esperados, de lo que necesitamos para que aprenda a red
 		tmep = []
 		for x in arreglo:
-			tmep.append(x[0])
-			tmep.append(x[1])
-			tmep.append(x[2])
+			tmep.append(x[0])#verde
+			tmep.append(x[1])#semi verde
+			tmep.append(x[2])#rojo
 			pass
 		tmep.append(50)
 		imagenes.append(tmep) # lo agregamos a la lista de imagenes 
