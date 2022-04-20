@@ -129,3 +129,4 @@ print ("Se ha entrenado en", tiempo[0], "días",tiempo[1], "horas",tiempo[2],"mi
 
 red.save("RedNeuronalEntrenada") # se guardan los resultados
 #Fin de archivo
+ 
