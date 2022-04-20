@@ -107,8 +107,8 @@ rango_de_conexion = 1 #nos dice que tipo de red se usa y esta es multi capa
 variable_entrenamiento = .01 #constante de aprendizaje de la RNA
 
 error_minimo = 0.0001 #definimos el error minimo al que se quiere llegar
-iteraciones_maximas = 5000 #las iteraciones maximas al entrenar
-iteraciones_reporte = 5 #numero de iteraciones por reporte, muestra el listado cada cuanto aparece en consola
+iteraciones_maximas = 2000 #las iteraciones maximas al entrenar
+iteraciones_reporte = 1 #numero de iteraciones por reporte, muestra el listado cada cuanto aparece en consola
 
 red = libfann.neural_net() # creamos la red FANN
 red.create_sparse_array(rango_de_conexion, (7501, 2500,3))#le decimos que tipo de red y las neuronas por capa 
