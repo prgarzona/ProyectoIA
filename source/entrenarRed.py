@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-
-
 from PIL import Image #biblioteca para abrir y escalar imagenes, manipular y guardar muchos formatos de archivo de imagen diferentes
 from glob import glob #bibilioteca utilizada para iterar entre los archivos de una biblioteca
 from numpy import array 
@@ -30,7 +27,7 @@ def calcularTiempo(tiempoEnSegundos):
 				horas=horas%24
 	return [dias,horas,minutos,segundos]
 
-#Esta funcion lo que obtiene  es la informacion de las fotogracias que se encuentran en la carpeta Resources/recortadas la cual 
+#Esta funcion lo que obtiene  es la informacion de las fotografias que se encuentran en la carpeta Resources/recortadas la cual 
 #incluye fotografias de distintos angulos y distintos tomates para que vaya aprendiendo el reconocimiento
 def getdata():
 	"""Funcion encargada de obtenes los datos para el entrenamientos ubicados en ./Resources/recortadas"""
@@ -110,8 +107,8 @@ rango_de_conexion = 1 #nos dice que tipo de red se usa y esta es multi capa
 variable_entrenamiento = .01 #constante de aprendizaje de la RNA
 
 error_minimo = 0.0001 #definimos el error minimo al que se quiere llegar
-iteraciones_maximas = 5 #las iteraciones maximas al entrenar
-iteraciones_reporte = 1 #numero de iteraciones por reporte, muestra el listado cada cuanto aparece en consola
+iteraciones_maximas = 5000 #las iteraciones maximas al entrenar
+iteraciones_reporte = 5 #numero de iteraciones por reporte, muestra el listado cada cuanto aparece en consola
 
 red = libfann.neural_net() # creamos la red FANN
 red.create_sparse_array(rango_de_conexion, (7501, 2500,3))#le decimos que tipo de red y las neuronas por capa 
