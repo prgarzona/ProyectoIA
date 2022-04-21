@@ -26,7 +26,7 @@ class Ventana(tk.Frame):
 		self.hi_there["command"] = self.selImg
 		self.hi_there.grid(row=1, column=3)
 		#Creamos el botón de salir
-		self.quit = tk.Button(self, text="Cerrar", bg="red", command=root.destroy)
+		self.quit = tk.Button(self, text="Cerrar", bg="brown2", command=root.destroy)
 		self.quit.grid(row=3, column=2)
 	
 	####### Métodos para los botones ######
